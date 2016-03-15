@@ -101,7 +101,7 @@ public class FloatMatrices
      * @param columnIndices The column indices
      * @return The new matrix
      */
-    public static FloatMatrixHostCSR create(
+    public static FloatMatrixHostCSR createFloatMatrixHostCSR(
         int numRows, int numCols, 
         float[] values, int[] rowPointers, int[] columnIndices)
     {

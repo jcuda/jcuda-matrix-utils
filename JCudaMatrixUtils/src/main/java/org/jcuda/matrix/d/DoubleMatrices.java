@@ -102,7 +102,7 @@ public class DoubleMatrices
      * @param columnIndices The column indices
      * @return The new matrix
      */
-    public static DoubleMatrixHostCSR create(
+    public static DoubleMatrixHostCSR createDoubleMatrixHostCSR(
         int numRows, int numCols, 
         double[] values, int[] rowPointers, int[] columnIndices)
     {
